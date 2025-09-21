@@ -1,7 +1,49 @@
+/* Fondo general y tipografía */
 body {
-  background-color: lightblue;
-  font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* azul muy claro */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/* Estilo para el encabezado principal */
 h1 {
-  color: darkblue;
+    color: #003366; /* azul oscuro */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para párrafos */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    margin: 20px;
+    text-align: justify;
+}
+
+/* Un contenedor central */
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Botón básico */
+button {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #004c99;
 }
